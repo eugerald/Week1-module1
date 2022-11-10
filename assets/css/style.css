@@ -1,3 +1,4 @@
+/* removed browser margins and padding for all html tags */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* Styles for header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,10 +44,16 @@ body {
     margin-left: 25px;
 }
 
+
+/* styling all anchor tags */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
+
+/* styled all paragraph tags */
 
 p {
     font-size: 16px;
@@ -59,10 +68,15 @@ p {
     background-position: center;
 }
 
+
+/* styling class for making element float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+
+/* styling class for making element float right */
 
 .float-right {
     float: right;
@@ -74,6 +88,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+
+/* styles for class benefits and its children */
 
 .benefits {
     margin-right: 20px;
@@ -134,6 +151,9 @@ p {
     max-width: 150px;
 }
 
+
+/* styling sub-section for benefits */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,6 +207,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+/* styling footer */
 
 .footer {
     padding: 30px;
